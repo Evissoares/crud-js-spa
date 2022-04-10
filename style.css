@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+#selecionar,
+#relatorio-vendas,
+
+#crud-usuarios,
+#crud-produtos,
+#crud-marcas,
+#crud-vendas,
+
+#sair,
+#voltar,
+
+#opcoes-vendedor,
+#opcoes-gerente,
+#opcoes-admin,
+#btnAtualizarUsuario,
+#btnCancelarEdicaoUsuario,
+#btnAtualizarMarca,
+#btnCancelarEdicaoMarca,
+#btnAtualizarProduto,
+#btnCancelarEdicaoProduto
+
+{
+    display: none;
+}
+
+#crud-usuarios,
+#crud-produtos,
+#crud-marcas,
+#crud-vendas{
+    margin-top: 5%;
+}
+
+#estatisticas{
+    position: absolute;
+    display: none;
+    width: 87%;
+    min-height: 400px;
+    margin: 7% auto;
+}
